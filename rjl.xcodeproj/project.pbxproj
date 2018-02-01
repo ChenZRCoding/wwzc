@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD8BB1FE2022A1F000472EFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB1FD2022A1F000472EFF /* AppDelegate.m */; };
 		BD8BB2012022A1F000472EFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB2002022A1F000472EFF /* ViewController.m */; };
 		BD8BB2042022A1F000472EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8BB2022022A1F000472EFF /* Main.storyboard */; };
-		BD8BB2062022A1F000472EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8BB2052022A1F000472EFF /* Assets.xcassets */; };
 		BD8BB2092022A1F000472EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8BB2072022A1F000472EFF /* LaunchScreen.storyboard */; };
 		BD8BB20C2022A1F000472EFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB20B2022A1F000472EFF /* main.m */; };
 		BD8BB2162022A1F000472EFF /* rjlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB2152022A1F000472EFF /* rjlTests.m */; };
 		BD8BB2212022A1F000472EFF /* rjlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB2202022A1F000472EFF /* rjlUITests.m */; };
+		BD8BB22F2022A2F300472EFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8BB22E2022A2F300472EFF /* Images.xcassets */; };
+		BD8BB2372022AEFC00472EFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8BB2352022AEFC00472EFF /* AppDelegate.m */; };
+		BD8BB2382022AEFC00472EFF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD8BB2362022AEFC00472EFF /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +37,10 @@
 
 /* Begin PBXFileReference section */
 		BD8BB1F92022A1F000472EFF /* rjl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rjl.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD8BB1FC2022A1F000472EFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BD8BB1FD2022A1F000472EFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BD8BB1FF2022A1F000472EFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BD8BB2002022A1F000472EFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BD8BB2032022A1F000472EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BD8BB2052022A1F000472EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8BB2082022A1F000472EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BD8BB20A2022A1F000472EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD8BB20B2022A1F000472EFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD8BB2112022A1F000472EFF /* rjlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rjlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8BB2152022A1F000472EFF /* rjlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rjlTests.m; sourceTree = "<group>"; };
@@ -51,6 +48,11 @@
 		BD8BB21C2022A1F000472EFF /* rjlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rjlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8BB2202022A1F000472EFF /* rjlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rjlUITests.m; sourceTree = "<group>"; };
 		BD8BB2222022A1F000472EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8BB22E2022A2F300472EFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD8BB2342022AEFC00472EFF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD8BB2352022AEFC00472EFF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD8BB2362022AEFC00472EFF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8BB23C2022B62300472EFF /* WWZCHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZCHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +103,16 @@
 		BD8BB1FB2022A1F000472EFF /* rjl */ = {
 			isa = PBXGroup;
 			children = (
-				BD8BB1FC2022A1F000472EFF /* AppDelegate.h */,
-				BD8BB1FD2022A1F000472EFF /* AppDelegate.m */,
+				BD8BB2322022AEFC00472EFF /* Library */,
+				BD8BB2312022AEFC00472EFF /* Login */,
+				BD8BB2302022AEFB00472EFF /* Main */,
+				BD8BB2332022AEFC00472EFF /* Other */,
 				BD8BB1FF2022A1F000472EFF /* ViewController.h */,
 				BD8BB2002022A1F000472EFF /* ViewController.m */,
 				BD8BB2022022A1F000472EFF /* Main.storyboard */,
-				BD8BB2052022A1F000472EFF /* Assets.xcassets */,
 				BD8BB2072022A1F000472EFF /* LaunchScreen.storyboard */,
-				BD8BB20A2022A1F000472EFF /* Info.plist */,
 				BD8BB20B2022A1F000472EFF /* main.m */,
+				BD8BB22E2022A2F300472EFF /* Images.xcassets */,
 			);
 			path = rjl;
 			sourceTree = "<group>";
@@ -130,6 +133,38 @@
 				BD8BB2222022A1F000472EFF /* Info.plist */,
 			);
 			path = rjlUITests;
+			sourceTree = "<group>";
+		};
+		BD8BB2302022AEFB00472EFF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BD8BB2312022AEFC00472EFF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BD8BB2322022AEFC00472EFF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		BD8BB2332022AEFC00472EFF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BD8BB23C2022B62300472EFF /* WWZCHeader.pch */,
+				BD8BB2342022AEFC00472EFF /* AppDelegate.h */,
+				BD8BB2352022AEFC00472EFF /* AppDelegate.m */,
+				BD8BB2362022AEFC00472EFF /* Info.plist */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8BB2382022AEFC00472EFF /* Info.plist in Resources */,
 				BD8BB2092022A1F000472EFF /* LaunchScreen.storyboard in Resources */,
-				BD8BB2062022A1F000472EFF /* Assets.xcassets in Resources */,
+				BD8BB22F2022A2F300472EFF /* Images.xcassets in Resources */,
 				BD8BB2042022A1F000472EFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8BB2372022AEFC00472EFF /* AppDelegate.m in Sources */,
 				BD8BB2012022A1F000472EFF /* ViewController.m in Sources */,
 				BD8BB20C2022A1F000472EFF /* main.m in Sources */,
-				BD8BB1FE2022A1F000472EFF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +466,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KJ5FNSD9RD;
-				INFOPLIST_FILE = rjl/Info.plist;
+				DEVELOPMENT_TEAM = V8VHC9TB82;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = rjl/Other/WWZCHeader.pch;
+				INFOPLIST_FILE = rjl/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wwzc.rjl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,9 +484,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KJ5FNSD9RD;
-				INFOPLIST_FILE = rjl/Info.plist;
+				DEVELOPMENT_TEAM = V8VHC9TB82;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = rjl/Other/WWZCHeader.pch;
+				INFOPLIST_FILE = rjl/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wwzc.rjl;
 				PRODUCT_NAME = "$(TARGET_NAME)";

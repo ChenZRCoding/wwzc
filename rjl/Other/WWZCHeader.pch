@@ -1,0 +1,57 @@
+//
+//  WWZCHeader.h
+//  rjl
+//
+//  Created by C-coding on 2018/2/1.
+//  Copyright © 2018年 com.wwzc.rjl. All rights reserved.
+//
+
+#ifndef WWZCHeader_h
+#define WWZCHeader_h
+
+
+#endif /* WWZCHeader_h */
+
+
+#define IOS7OrLater [[[UIDevice currentDevice] systemVersion] floatValue] >=7.0f
+#define iOS8 [[[UIDevice currentDevice] systemVersion] floatValue] >=8.0f
+#define iOS9 [[[UIDevice currentDevice] systemVersion] floatValue] >=9.0f
+#define iOS10 [[[UIDevice currentDevice] systemVersion] floatValue] >=10.0f
+#define   PHONE_MODEL         [[UIDevice currentDevice] model]
+#define   PHONE_OS            [[UIDevice currentDevice] systemVersion]
+#define   APP_VERSION        [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+#define   APP_VERSION_BUILD    [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+#define   Is_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define   NOTI_LOGOUT     @"Notification_Logout"
+#define   NOTI_PUSH     @"receivePushNotification"
+#define  TFNotificationCenter [NSNotificationCenter defaultCenter]
+#define TNweakSelf __weak typeof(self) weakSelf = self;
+//获取颜色
+#define GET_RGB_COLOR(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define GET_RGBA_COLOR(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define MAIN_COLOR   GET_RGB_COLOR(239, 173, 211)
+//获得字体
+#define SYSTEM_FONT(size)  [UIFont systemFontOfSize:size]
+//金额浮点型转字符串
+#define FloatToMoney(float) [NSString stringWithFormat:@"%.2f",float]
+
+
+#ifdef DEBUG // 如果定义了DEBUG这个宏，说明是处在调试阶段
+#else // 不是调试阶段，是发布阶段
+#define LOG()
+#endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
